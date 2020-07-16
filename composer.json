@@ -1,0 +1,26 @@
+{
+    "name": "smony/personalization",
+    "description": "for personalization contents",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smony",
+            "email": "vladimir.simonchuk@vis-design.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Smony\\Personalization\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smony\\Personalization\\PersonalizationProvider"
+            ]
+        }
+    }
+}
